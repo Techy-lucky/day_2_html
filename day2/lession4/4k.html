@@ -1,38 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      .buttons {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-      }
-      .stretchyy {
-        background-color: green;
-        color: white;
-        border: none;
-        font-size: 15px;
-        padding: 10px 15px;
-        cursor: pointer;
-        transition: all 0.3s;
-      }
-
-      .stretchyy:hover {
-        padding: 10px 30px;
-      }
+        .hov{
+            padding: 15px 25px 15px 25px;
+            margin: 10px 20px;
+            border: none;
+            background-color: green;
+            color: white;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            transition: padding 0.2s , margin 0.2s;
+        }
+        .hov:hover{
+             padding: 15px 35px 15px 35px;
+             margin: 10px;
+        }
     </style>
-  </head>
-  <body>
-    <div class="buttons">
-      <button class="stretchyy">One</button>
-      <button class="stretchyy">Two</button>
-      <button class="stretchyy">Three</button>
-    </div>  
-  </body>
+</head>
+<body>
+    <button class="hov">One</button>
+    <button class="hov">Two</button>
+    <button class="hov">Three</button>
+</body>
 </html>
